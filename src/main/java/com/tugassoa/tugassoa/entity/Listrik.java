@@ -20,6 +20,7 @@ public class Listrik {
     private Integer id;
     private String jenis;
     private String idpelanggan;
+    private String idtagihan;
     private Integer nominal;
     @JsonFormat(pattern="yyyy-MM-dd hh:mm:ss")
     private Date transactiondate;
